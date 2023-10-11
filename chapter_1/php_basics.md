@@ -128,7 +128,7 @@ $y = 10.5;
 ```
 
 2. In PHP, there are three different types of variable scopes as follows:
-1. **Global variables:** Global variables can be accessed from anywhere in the program. However, in order to modify a global variable, it must be declared as global within the function where it is being modified. To declare a variable as global, the "global" keyword is placed before its name.
+* **Global variables:** Global variables can be accessed from anywhere in the program. However, in order to modify a global variable, it must be declared as global within the function where it is being modified. To declare a variable as global, the "global" keyword is placed before its name.
 
 ```php
 
@@ -142,7 +142,7 @@ function greet() {
 greet();
 
 ```
-2. **Local variables:** A variable declared within a function is considered a local variable and can only be referenced within that function. Regardless of assigning a value outside the function, it is considered a completely different variable from the one within the function.
+* **Local variables:** A variable declared within a function is considered a local variable and can only be referenced within that function. Regardless of assigning a value outside the function, it is considered a completely different variable from the one within the function.
 
 ```php
 
@@ -158,7 +158,7 @@ echo "Hello, " . $name . "!"; // Hiển thị giá trị của biến toàn cụ
 
 ```
 
-3. **Static variables:** In contrast, variables declared within function parameters will be destroyed when exiting the function. On the other hand, static variables will retain their value even when exiting the function and will keep that value when the function is called again. You can declare a variable as static by using the "static" keyword placed before the variable name.
+* **Static variables:** In contrast, variables declared within function parameters will be destroyed when exiting the function. On the other hand, static variables will retain their value even when exiting the function and will keep that value when the function is called again. You can declare a variable as static by using the "static" keyword placed before the variable name.
 
 ```php
 
