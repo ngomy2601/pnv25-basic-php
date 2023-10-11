@@ -1,6 +1,11 @@
 # SETUP PHP
 Watch a given video and setup PHP on your computer: https://www.youtube.com/watch?v=whTYABqa0P8
 
+# Get started with PHP - PHP Interactive Shell
+1. Open Terminal on your computer
+2. Execute the command `php -a` 
+3. Write PHP code: `echo “Hello World”;`
+
 # Running to PHP using Visual Studio Code
 Watch a given video and config the Visual Studio Code on your computer: https://www.youtube.com/embed/Ry8tRRfxxf4
 
