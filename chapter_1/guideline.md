@@ -12,4 +12,5 @@ echo "hello world!";
 ?>
 
 ```
-3. Step 3: Running hello_word.php file on Visual Studio Code.
+3. Step 3: Running the file hello_word.php on Visual Studio Code.
+In terminal execute command `> php hello_world.php`
