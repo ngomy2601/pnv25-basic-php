@@ -1,4 +1,4 @@
-# PHP Syntax - Arrays
+# PHP SYNTAX - ARRAYS
 
 1. Declare an array in PHP:
 * Declaring an empty array
