@@ -19,7 +19,7 @@ $string = 'Hello, $name!'; // Output: Hello, $name!
 $name = "John";
 $string = "Hello, $name!"; // Output: Hello, John!
 ```
-* Escape characters like \n (newline) and \t (tab) are processed only within double-quoted strings.
+* Escape characters like `\n` (newline) and `\t` (tab) are processed only within double-quoted strings.
 ```php
 $string = "Hello\nWorld";
 // Output:
@@ -34,38 +34,38 @@ $string = "Hello\tWorld";
 ***
 
 2. Some commonly used functions to manipulate strings:
-* Length: Use strlen() to calculate the length of a string.
+* **Length**: Use `strlen()` to calculate the length of a string.
 ```php
 $string = "Hello, world!";
 $length = strlen($string);
 // Output: 13
 ```
-* Substring: Extract a portion of a string with substr().
+* **Substring**: Extract a portion of a string with `substr()`.
 ```php
 $string = "Hello, World!";
 $substring = substr($string, 7, 5);
 // Output: World
 ```
-* Concatenation: Combine strings using . or concat().
+* **Concatenation**: Combine strings using `.` or `concat()`.
 ```php
 $string1 = "Hello";
 $string2 = "World";
 $concatenatedString = $string1 . ", " . $string2 . "!";
 // Output: Hello, World!
 ```
-* Search: Find substrings with strpos().
+* **Search**: Find substrings with `strpos()`.
 ```php
 $string = "Hello, World!";
 $position = strpos($string, "World");
 // Output: 7
 ```
-* Replacement: Replace substrings using str_replace().
+* **Replacement**: Replace substrings using `str_replace()`.
 ```php
 $string = "Hello, World!";
 $newString = str_replace("World", "John", $string);
 // Output: Hello, John!
 ```
-* Case Conversion: Convert strings to lowercase or uppercase with strtolower() and strtoupper().
+* **Case Conversion**: Convert strings to lowercase or uppercase with `strtolower()` and `strtoupper()`.
 ```php
 $string = "Hello, World!";
 $lowercase = strtolower($string);
@@ -77,13 +77,13 @@ $string = "Hello, World!";
 $uppercase = strtoupper($string);
 // Output: HELLO, WORLD!
 ```
-* Count Words: Use str_word_count() to count the number of words in a string.
+* **Count Words**: Use `str_word_count()` to count the number of words in a string.
 ```php
 $string = "This is a sample sentence.";
 $numWords = str_word_count($string);
 // Output: 5
 ```
-* Reverse: Reverse the order of characters in a string using strrev().
+* **Reverse**: Reverse the order of characters in a string using `strrev()`.
 ```php
 $string = "Hello, World!";
 $reversedString = strrev($string);
