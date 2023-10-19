@@ -45,8 +45,8 @@ foreach ($array as $value) {
 ```
 
 ### RESOURCES:
-[PHP while Loop](https://www.w3schools.com/php/php_looping_while.asp)
-[PHP do while Loop](https://www.w3schools.com/php/php_looping_do_while.asp)
-[PHP for Loop](https://www.w3schools.com/php/php_looping_for.asp)
-[PHP foreach Loop](https://www.w3schools.com/php/php_looping_foreach.asp)
-[Tự học PHP -10. Tìm hiểu về các loại vòng lặp trong PHP](https://youtu.be/dgS3W0AypWk?list=PLq3KxntIWWrLpDmH_9YxuaF_yHA5QKHlN)
+* [PHP while Loop](https://www.w3schools.com/php/php_looping_while.asp)
+* [PHP do while Loop](https://www.w3schools.com/php/php_looping_do_while.asp)
+* [PHP for Loop](https://www.w3schools.com/php/php_looping_for.asp)
+* [PHP foreach Loop](https://www.w3schools.com/php/php_looping_foreach.asp)
+* [Tự học PHP -10. Tìm hiểu về các loại vòng lặp trong PHP](https://youtu.be/dgS3W0AypWk?list=PLq3KxntIWWrLpDmH_9YxuaF_yHA5QKHlN)
