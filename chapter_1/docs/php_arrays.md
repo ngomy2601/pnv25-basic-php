@@ -129,3 +129,7 @@ if (array_key_exists('key', $arr)) {
 // Output: Key exists in the array
 
 ```
+
+### RESOURCES:
+* [PHP Arrays](https://www.w3schools.com/php/php_arrays.asp)
+* [Tự học PHP -7. Tìm hiểu về mảng trong PHP](https://youtu.be/XgUyogJ25xg?list=PLq3KxntIWWrLpDmH_9YxuaF_yHA5QKHlN)

@@ -89,3 +89,6 @@ $string = "Hello, World!";
 $reversedString = strrev($string);
 // Output: "!dlroW ,olleH"
 ```
+### RESOURCES:
+* [PHP Strings](https://www.w3schools.com/php/php_string.asp)
+* [Tự học PHP -6. Tìm hiểu về chuỗi - String trong PHP](https://youtu.be/VkW0kSdyVqM?list=PLq3KxntIWWrLpDmH_9YxuaF_yHA5QKHlN)
