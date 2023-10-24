@@ -7,20 +7,7 @@
 5. In bảng cửu chương
 7. Vẽ bàn cờ vua
 8. Vẽ tam giác sao với N dòng
-*
-**
-***
-****
-*****
+![Exercise 8](/chapter_1/img/p2-ex-6.png)
 (Nếu N = 5)
 9. Vẽ tam giác sao đối xứng với N x 2 dòng
-*
-**
-***
-****
-*****
-*****
-****
-***
-**
-*
+![Exercise 9](/chapter_1/img/p2-ex-7.png)
