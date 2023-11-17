@@ -9,6 +9,7 @@ $user     = 'root'; // Default username to connect to MySQL is root
 $password = ''; // Default password to connect to MySQL is empty
 
 // TO DO: CREATE CONNECTION TO DATABASE
+// Read file: https://www.w3schools.com/php/php_mysql_connect.asp
 
 $db = 
 ?>
