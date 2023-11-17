@@ -4,20 +4,13 @@ require_once 'templates/header.php';
 
 <?php
 $host     = 'localhost'; // Because MySQL is running on the same computer as the web server
-$database = 'sampleDB'; // Name of the database you use (you need first to CREATE DATABASE in MySQL)
+$database = 'PHP_connect'; // Name of the database you use (you need first to CREATE DATABASE in MySQL)
 $user     = 'root'; // Default username to connect to MySQL is root
 $password = ''; // Default password to connect to MySQL is empty
 
 // TO DO: CREATE CONNECTION TO DATABASE
-try {
-    $db = new PDO("mysql:host=$host;dbname=$database", $username, $password);
-    // set the PDO error mode to exception
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully";
-  } catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-  }
-//$db = 
+
+$db = 
 ?>
 
 <?php
