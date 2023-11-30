@@ -13,7 +13,8 @@ if (isset($_GET['page']))
    {
        include_once $page;
    } else {
-        echo "Page '" . htmlspecialchars($_GET['page']) . "' Not Found"; 
+        echo "Page '" .$_GET['page']. "' Not Found"; 
+        //echo "Page '" . htmlspecialchars($_GET['page']) . "' Not Found"; 
    }
 }else {
     include_once 'pages/home.php'; 
